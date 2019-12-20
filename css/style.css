@@ -10,6 +10,9 @@ nav .brand-logo {
   height: 200px;
   overflow: visible; 
 }
+.mainaboutus{
+  padding-top: 20vh !important;
+}
 @media only screen and (max-width: 500px) {
   #mycarasoul{ 
     height: 200px;
@@ -20,6 +23,9 @@ nav .brand-logo {
     height:300px !important;
     top:-80px !important;
     left:-10px !important;
+  }
+  .lessMargin{
+    margin: 0px;
   }
 }
 #projectCards{
@@ -84,4 +90,8 @@ footer.page-footer {
 .profile-details{
   margin : 0px; 
 
+}
+.aboutus-justify{
+  text-align: justify;
+  text-justify: inter-word;
 }
